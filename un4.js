@@ -13,11 +13,11 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type 4help",{type: 'WATCHING'})
+    client.user.setActivity(" Type 3bhelp",{type: 'WATCHING'})
 	
 });
 	
-            var prefix = "4" ;
+            var prefix = "3b" ;
 	
 	
 	/*
@@ -31,7 +31,7 @@ npm install queue
 */
 client.on('message', msg => {
 
-    if (msg.content == '4play') {
+    if (msg.content == '3bplay') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -232,7 +232,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 
-const adminprefix = "4";//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
+const adminprefix = "3b";//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 const devs = ['470500980342128650'];//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
